@@ -1,9 +1,9 @@
 # MI9-Nethunter-Project
-Warning:This kernel is intended for hacker technology learning and communication, not for illegal use, all behaviors and responsibilities have nothing to do with me!
+Warning: This kernel is intended for hacker technology learning and communication, not for illegal use, all behaviors and responsibilities have nothing to do with me!
 
 This kernel is modified based on Evirakernel and is suitable for MIUI_Q. The kernel version is 4.14.170. It can be updated irregularly later. You can download and use the kernel from release.
 
-##Kernel function
+## Kernel function
   WIFI Injection (support otg rt3070l ar9170 rtl8187.......)
   HID attack
   SYSVIPC (now you can run postgresql normally)
@@ -22,16 +22,16 @@ This kernel is modified based on Evirakernel and is suitable for MIUI_Q. The ker
   Add qcacld3 wlan driver
   .........
   
-##How to install
+## How to install
   First back up your existing boot.img and dtbo.img and then swipe the kernel package into twrp and then into magick, and restart it.
   Second enter your system, unzip the kernel package, and extract init.nethunter.rc.disabled, keyboard-descriptor.bin and mouse-descriptor.bin from tool/ppp/,then put the keyboard-descriptor.bin and mouse-descriptor.bin files in the / ;copy all contents in init.nethunter.rc.disabled to the last line of /init.usb.configfs.rc file.
   Finally Install kali chroot and reboot.
 If you want to use HID,you should run "setprop sys.usb.config win,hid" as root on the terminal.
 
-##Known Issues
+## Known Issues
   Please tell me
 
-##Thanks
+## Thanks
   [Evirakernel](https://github.com/evirakernel) thanks for kernel source
   [simonpunk](https://forum.xda-developers.com/oneplus-5/development/burgerhunter-t3638810) thanks for HID patch
   [kimocoder](https://github.com/kimocoder) thanks for WIFI injection patch
