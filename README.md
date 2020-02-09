@@ -1,8 +1,9 @@
 # MI9-Nethunter-Project
-Warning: This kernel is intended for hacker technology learning and communication, not for illegal use, all behaviors and responsibilities have nothing to do with me!
+<br> Warning: This kernel is intended for hacker technology learning and communication, not for illegal use, all behaviors and responsibilities have nothing to do with me!
 
-This kernel is modified based on Evirakernel and is suitable for MIUI_Q. The kernel version is 4.14.170. It can be updated irregularly later. You can download and use the kernel from release.
+<br> This kernel is modified based on Evirakernel and is suitable for MIUI_Q. The kernel version is 4.14.170. It can be updated irregularly later. You can download and use the kernel from release.
 
+<br> Kernel source code
 ## Kernel function
 <br>  WIFI Injection (support otg rt3070l ar9170 rtl8187.......)
 <br>  HID attack
@@ -33,9 +34,9 @@ If you want to use HID,you should run "setprop sys.usb.config win,hid" as root o
 
 ## Thanks
 <br> Thanks [Evirakernel](https://github.com/evirakernel) for kernel source
-<br> Thanks [simonpunk](https://forum.xda-developers.com/oneplus-5/development/burgerhunter-t3638810) thanks for HID patch
-<br> Thanks [kimocoder](https://github.com/kimocoder) thanks for WIFI injection patch
-<br> Thanks [osm0sis](https://github.com/osm0sis/AnyKernel3) thanks for busybox and anykernel3
-<br> Thanks [johanlike](https://github.com/johanlike) thanks for any help
-<br> Thanks [acai66](https://github.com/acai66) thanks for any help
-<br> Thanks [h1jacker](https://github.com/h1jacker) thanks for any help
+<br> Thanks [simonpunk](https://forum.xda-developers.com/oneplus-5/development/burgerhunter-t3638810) for HID patch
+<br> Thanks [kimocoder](https://github.com/kimocoder) for WIFI injection patch
+<br> Thanks [osm0sis](https://github.com/osm0sis/AnyKernel3) for busybox and anykernel3
+<br> Thanks [johanlike](https://github.com/johanlike) for any help
+<br> Thanks [acai66](https://github.com/acai66) for any help
+<br> Thanks [h1jacker](https://github.com/h1jacker) for any help
