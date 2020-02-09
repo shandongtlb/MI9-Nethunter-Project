@@ -4,8 +4,8 @@ Warning: This kernel is intended for hacker technology learning and communicatio
 This kernel is modified based on Evirakernel and is suitable for MIUI_Q. The kernel version is 4.14.170. It can be updated irregularly later. You can download and use the kernel from release.
 
 ## Kernel function
-  WIFI Injection (support otg rt3070l ar9170 rtl8187.......)
-  HID attack
+ <br> WIFI Injection (support otg rt3070l ar9170 rtl8187.......)
+ <br> HID attack
   SYSVIPC (now you can run postgresql normally)
   USB RNDIS
   RTL-SDR
