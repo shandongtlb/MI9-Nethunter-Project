@@ -3,9 +3,10 @@
 
 <br> This kernel is modified based on Evirakernel and is suitable for MIUI_Q. The kernel version is 4.14.170. It can be updated irregularly later. You can download and use the kernel from release.
 
-<br> This patch supports all Linux devices based on the 4.14.X kernel version[Nethunter kernel patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch)
+<br> This patch supports all Linux devices based on the 4.14.X kernel version [Nethunter kernel patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch)
 <br> Click [here](https://github.com/shandongtlb/MI9-Nethunter-Project/releases) to download Mi9-nethunter-kernel-release
 ## Kernel function
+### Nethunter function (Can be added through the above [patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch))
 <br>  WIFI Injection (support otg rt3070l ar9170 rtl8187.......)
 <br>  HID attack
 <br>  SYSVIPC (now you can run postgresql normally)
@@ -13,6 +14,7 @@
 <br>  RTL-SDR
 <br>  USB serial (now it supports ch340 and pl2303)
 <br>  Wireless extension compatible (now you can use "iwconfig" and set monitor mode)
+### Release kernel Characteristic
 <br>  Update to 4.14.170
 <br>  Add bbrplus and set default
 <br>  Add 830mhz gpu freq
@@ -21,6 +23,9 @@
 <br>  Add dynamic fsync
 <br>  Try ddr 2133
 <br>  Add exfat
+<br>  Add ntfs
+<br>  Add ext4
+<br>  Add f2fs
 <br>  Add qcacld3 wlan driver
 <br>  .........
   
