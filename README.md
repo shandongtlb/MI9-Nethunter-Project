@@ -7,7 +7,7 @@
 <br> Click [here](https://github.com/shandongtlb/MI9-Nethunter-Project/releases) to download Mi9-nethunter-kernel-release
 ## Kernel function
 ### Nethunter function (Can be added through the above [patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch))
-<br>  WIFI Injection (support otg rt3070l ar9170 rtl8187.......)
+<br>  WIFI Injection (support otg rt3070l ar9170 rtl8187 rtl8188 rtl88xxau.......)
 <br>  HID attack
 <br>  SYSVIPC (now you can run postgresql normally)
 <br>  USB RNDIS
