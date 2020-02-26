@@ -5,6 +5,7 @@
 
 <br> This patch supports all Linux devices based on the 4.14.X kernel version [Nethunter kernel patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch)
 <br> Click [here](https://github.com/shandongtlb/MI9-Nethunter-Project/releases) to download Mi9-nethunter-kernel-release
+<br> The last version: V5 20200226
 ## Kernel function
 ### Nethunter function (Can be added through the above [patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch))
 <br>  WIFI Injection (support otg rt3070l ar9170 rtl8187 rtl8188 rtl88xxau.......)
@@ -27,6 +28,8 @@
 <br>  Add ext4
 <br>  Add f2fs
 <br>  Add qcacld3 wlan driver
+<br>  Add andreno boost
+<br>  Add wireguard Network security tunnel
 <br>  .........
   
 ## How to install
