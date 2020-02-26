@@ -16,7 +16,7 @@
 <br>  USB serial (now it supports ch340 and pl2303)
 <br>  Wireless extension compatible (now you can use "iwconfig" and set monitor mode)
 ### Release kernel Characteristic
-<br>  Update to 4.14.170
+<br>  Update to 4.14.171
 <br>  Add bbrplus and set default
 <br>  Add 830mhz gpu freq
 <br>  Add klapse5.0
