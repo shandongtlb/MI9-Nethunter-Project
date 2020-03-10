@@ -20,7 +20,8 @@
 <br>  Add bbrplus and set default
 <br>  Add 830mhz gpu freq
 <br>  Add klapse5.0
-<br>  Add zen i/o sched and set default
+<br>  Add Audio control
+<br>  Add zen mq-deadline sched and mq-deadline is default
 <br>  Add dynamic fsync
 <br>  Try ddr 2133
 <br>  Add exfat
