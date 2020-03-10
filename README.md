@@ -1,11 +1,11 @@
 # MI9-Nethunter-Project
 <br> Warning: This kernel is intended for hacker technology learning and communication, not for illegal use, all behaviors and responsibilities have nothing to do with me!
 
-<br> This kernel is modified based on Evirakernel and is suitable for MIUI_Q. The kernel version is 4.14.170. It can be updated irregularly later. You can download and use the kernel from release.
+<br> This kernel is modified based on Evirakernel and is suitable for MIUI_Q. The kernel version is 4.14.172. It can be updated irregularly later. You can download and use the kernel from release.
 
 <br> This patch supports all Linux devices based on the 4.14.X kernel version [Nethunter kernel patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch)
 <br> Click [here](https://github.com/shandongtlb/MI9-Nethunter-Project/releases) to download Mi9-nethunter-kernel-release
-<br> The last version: V5 20200226
+<br> The last version: V6 20200310 4.14.172
 ## Kernel function
 ### Nethunter function (Can be added through the above [patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch))
 <br>  WIFI Injection (support otg rt3070l ar9170 rtl8187 rtl8188 rtl88xxau.......)
@@ -16,7 +16,7 @@
 <br>  USB serial (now it supports ch340 and pl2303)
 <br>  Wireless extension compatible (now you can use "iwconfig" and set monitor mode)
 ### Release kernel Characteristic
-<br>  Update to 4.14.171
+<br>  Update to 4.14.172
 <br>  Add bbrplus and set default
 <br>  Add 830mhz gpu freq
 <br>  Add klapse5.0
@@ -30,6 +30,8 @@
 <br>  Add qcacld3 wlan driver
 <br>  Add andreno boost
 <br>  Add wireguard Network security tunnel
+<br>  Optimize f2fs
+<br>  Zram:use lz4 compression and set default
 <br>  .........
   
 ## How to install
