@@ -53,7 +53,7 @@
 <br>  Compiled based on Qualcomm CAF kernel tree, using the latest driver, more fluent and power saving
 <br>  .........
   
-## How to install
+## How to install or use it
 <br>  First back up your existing boot.img and dtbo.img and then swipe the kernel package into twrp and then into magick, and restart it.
 <br>  Second enter your system, unzip the kernel package, and extract init.nethunter.rc.disabled, keyboard-descriptor.bin and mouse-descriptor.bin from tool/ppp/,then put the keyboard-descriptor.bin and mouse-descriptor.bin files in the / ;copy all contents in init.nethunter.rc to the last line of /init.usb.configfs.rc file.
 <br>  Finally Install kali chroot and reboot.
