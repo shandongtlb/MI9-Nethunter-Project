@@ -20,7 +20,7 @@
 <br>  RTL-SDR, AirSpy, Hackrf
 <br>  USB serial (now it supports ch340 and pl2303)
 <br>  Wireless extension compatible (now you can use "iwconfig" and set monitor mode)
-<br>  Enable Qualcomm WiFi monitor mode, now you can set your network card "wlan0" to monitor mode
+<br>  Enable Qualcomm WiFi monitor mode (now you can set your network card "wlan0" to monitor mode)
 ### Release kernel Characteristic
 <br>  Update to 4.14.175
 <br>  Add BBRv2 and set default
@@ -59,7 +59,7 @@
 <br>  Finally Install kali chroot and reboot.
 If you want to use HID,you should run 'setprop sys.usb.config win,hid' as root on the terminal.
 
-<br>  Please see [here](https://github.com/kimocoder/qualcomm_android_monitor_mode) to see how to turn wlan0 monitor mode on.
+<br>  Please see [here](https://github.com/kimocoder/qualcomm_android_monitor_mode) to turn wlan0 monitor mode on.
 
 <br>  I suggest using MIUI.eu_stable-11.0.5, otherwise there may be problems with fingerprint unlocking and sound. It's not my fault, it's just Xiaomi's problem!
 
