@@ -61,6 +61,8 @@ If you want to use HID,you should run 'setprop sys.usb.config win,hid' as root o
 
 <br>  Please see [here](https://github.com/kimocoder/qualcomm_android_monitor_mode) to see how to turn wlan0 monitor mode on.
 
+<br>  I suggest using MIUI.eu_stalbe-11.0.5, otherwise there may be problems with fingerprint unlocking and sound. It's not my fault, it's just Xiaomi's problem!
+
 ## Known Issues
   Please tell me
 
