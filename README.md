@@ -1,17 +1,18 @@
 # MI9-Nethunter-Project
-<br> Warning: This kernel is intended for hacker technology learning and communication, not for illegal use, all behaviors and responsibilities have nothing to do with me!
+<br> Warning: This kernel is intended for hacker technology learning and communication, not for illegal use, all behaviors and responsibilities have nothing to do with me!   [简体中文](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/README_ZH.md)
 
-<br> This kernel is modified based on Qualcomm-CAF-SM8150 kernel source and is suitable for MIUI_Q. The kernel version is 4.14.175. It can be updated irregularly later. You can download and use the kernel from release.
+<br> This kernel is modified based on Qualcomm-CAF-SM8150 kernel source and is suitable for MIUI_Q. The kernel version is 4.14.175. Basically, the nethunter official website supports all the functions of the mobile phone and has solved all known problems. You can download and use the kernel from release.
 <br> Now, this is my [kernel source](https://github.com/shandongtlb/msm-4.14)
 
 <br> This patch supports all Linux devices based on the 4.14.X kernel version [Nethunter kernel patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch)
 <br> Click [here](https://github.com/shandongtlb/MI9-Nethunter-Project/releases) to download Mi9-nethunter-kernel-release
 <br> The last version: V8 20200404 4.14.175
 ## Kernel function
-### Nethunter function (Can be added through the above [patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch))
-<br>  WIFI Injection (support otg rt3070l ar9170 rtl8187/8 .......)
+### Nethunter function (You can use the patch I provided to implement WIFI inject and HID, and you also need to configure defconfig yourself [patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch))
+<br>  WIFI Injection IEEE80211 and support 2.4GHZ & 5GHZ
+<br>  Support otg rt3070l ar9170 rtl8187/8.....
 <br>  New rtl88xxau driver support form https://github.com/aircrack-ng/rtl8812au
-<br>  HID attack
+<br>  HID attack and support DuckyHID
 <br>  DriveDroid
 <br>  SYSVIPC (now you can run postgresql normally)
 <br>  USB RNDIS
@@ -20,7 +21,7 @@
 <br>  RTL-SDR, AirSpy, Hackrf
 <br>  USB serial (now it supports ch340 and pl2303)
 <br>  Wireless extension compatible (now you can use "iwconfig" and set monitor mode)
-<br>  Enable Qualcomm WiFi monitor mode (now you can set your network card "wlan0" to monitor mode)
+<br>  Enable Qualcomm WiFi monitor mode, now you can set your network card "wlan0" to monitor mode(No injection support)
 ### Release kernel Characteristic
 <br>  Update to 4.14.175
 <br>  Add BBRv2 and set default
@@ -35,8 +36,8 @@
 <br>  Add ntfs
 <br>  Add devfreq_boost
 <br>  Add ext4
-<br>  Add f2fs
 <br>  Add Network File Systems
+<br>  Qcom touch_boost
 <br>  Add vdso32
 <br>  Add some HID driver (include Steam Controller, Nintendo switch Controller and XBox gamepad)
 <br>  Add Shadow Call Stack and disabled
@@ -48,20 +49,19 @@
 <br>  Zram: use lz4 compression and set default
 <br>  Enable target TTL
 <br>  use power efficient workingqueues
-<br>  All of has built in kernel instead of modules
 <br>  LLD link and ThinLTO support
 <br>  Compiled based on Qualcomm CAF kernel tree, using the latest driver, more fluent and power saving
 <br>  .........
   
 ## How to install or use it
-<br>  First back up your existing boot.img and dtbo.img and then swipe the kernel package into twrp and then into magick, and restart it.
-<br>  Second enter your system, unzip the kernel package, and extract init.nethunter.rc.disabled, keyboard-descriptor.bin and mouse-descriptor.bin from tool/ppp/,then put the keyboard-descriptor.bin and mouse-descriptor.bin files in the / ;copy all contents in init.nethunter.rc to the last line of /init.usb.configfs.rc file.
+<br>  First back up your existing boot.img and dtbo.img and flash magisk, then swipe the kernel package into twrp and restart it.
+<br>  Second enter your system, unzip the kernel package, and extract init.nethunter.rc, keyboard-descriptor.bin and mouse-descriptor.bin from tool/ppp/,then put the keyboard-descriptor.bin and mouse-descriptor.bin files in the / ;copy all contents in init.nethunter.rc to the last line of /init.usb.configfs.rc file.
 <br>  Finally Install kali chroot and reboot.
-If you want to use HID,you should run 'setprop sys.usb.config win,hid' as root on the terminal.
+If you want to use HID,you should run `setprop sys.usb.config win,hid` as root on the terminal.
 
-<br>  Please see [here](https://github.com/kimocoder/qualcomm_android_monitor_mode) to turn wlan0 monitor mode on.
+<br>  Please see [here](https://github.com/kimocoder/qualcomm_android_monitor_mode) to see how to turn wlan0 monitor mode on.
 
-<br>  I suggest using MIUI.eu_stable-11.0.5, otherwise there may be problems with fingerprint unlocking and sound. It's not my fault, it's just Xiaomi's problem!
+<br>  I suggest using MIUI.eu_stable-11.0.5, otherwise there may be problems with fingerprint unlocking and sound. It's not my fault, it's just Xiaomi's problem! I have already submitted the [issue](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/issues/1213) , but I cannot get any reply from Xiaomi...
 
 ## Known Issues
   Please tell me
