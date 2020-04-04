@@ -43,6 +43,7 @@
 <br>  Add Shadow Call Stack and disabled
 <br>  Add qcacld3 wlan driver
 <br>  Add andreno boost
+<br>  All of them has built in kernel instead of in modules
 <br>  set selinux Permissive
 <br>  Upgrade wireguard Network security tunnel
 <br>  Optimize f2fs
