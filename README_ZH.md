@@ -1,7 +1,7 @@
 # MI9-Nethunter-Project
 <br> 警告：该内核仅在用于黑客技术的学习和交流，禁止非法使用，期间发生和导致的任何责任问题都与本人无关！ [For English](https://github.com/shandongtlb/MI9-Nethunter-Project)
 
-<br> 该内核基于高通官方CAF-SM8150源码合并小米内核树并进行修改，适用于MIUI_Q,基本上实现了nethunter官网支持手机的全部功能并且已解决已知的所有问题
+<br> 该内核基于高通官方CAF-SM8150源码合并小米内核树并进行修改，适用于MIUI_Q,基本上实现了Nethunter官网支持手机的全部功能并且已解决已知的所有问题
 <br> 开源源码地址（并没有打Nethunter补丁，可以自行用我提供的patch合并,当然你还需要自己配置defconfig） [kernel source](https://github.com/shandongtlb/msm-4.14)
 
 <br> Nethunter补丁，理论上支持所有4.14.x内核版本的手机 [Nethunter kernel patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch)
@@ -43,6 +43,7 @@
 <br>  添加 andreno boost 并且默认关闭
 <br>  设置 selinux 为 Permissive
 <br>  高通触摸升频
+<br>  实现0模块，将所有东西都编译进内核，增强通刷性
 <br>  升级 wireguard 到最新
 <br>  优化 f2fs
 <br>  Zram: 默认lz4压缩算法
@@ -60,7 +61,7 @@
 
 <br>  如果你想开启手机内置网卡wlan0的监听功能, [请看这里](https://github.com/kimocoder/qualcomm_android_monitor_mode) 
 
-<br>  由于新增rtl8812au网卡的特殊性无法直接用airmon-ng直接开启监听模式，可以通过下列命令运行
+<br>  由于新增rtl8812au网卡的特殊性无法直接用airmon-ng直接开启监听模式，可以通过下列命令运行:
 <br>  `ip link wlan1 down`
 <br>  `iw dev wlan1 set type monitor`
 <br>  `ip link wlan1 up`
