@@ -55,7 +55,7 @@
 <br>  .........
   
 ## How to install or use it
-<br>  First back up your existing boot.img and dtbo.img and flash magisk, then swipe the kernel package into twrp and restart it.
+<br>  First on the premise of removing the mandatory encryption of data partition, back up your existing boot.img and dtbo.img and flash magisk, then swipe the kernel package into twrp and restart it.
 <br>  Second enter your system, unzip the kernel package, and extract init.nethunter.rc, keyboard-descriptor.bin and mouse-descriptor.bin from tool/ppp/,then put the keyboard-descriptor.bin and mouse-descriptor.bin files in the / ;copy all contents in init.nethunter.rc to the last line of /init.usb.configfs.rc file.
 <br>  Finally Install kali chroot and reboot.
 If you want to use HID,you should run `setprop sys.usb.config win,hid` as root on the terminal.
