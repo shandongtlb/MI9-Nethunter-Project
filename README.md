@@ -64,7 +64,6 @@ If you want to use HID,you should run `setprop sys.usb.config win,hid` as root o
 
 <br>  Due to the special nature of the newly added rtl8812au network card, it is not possible to directly use airmon-ng to directly start the monitoring mode, which can be run by the following command:
 <br>  Xiaomi phone need set wlan2 instead of wlan1
-
 <br>  `ip link wlan2 down` 
 <br>  `iw dev wlan2 set type monitor`
 <br>  `ip link wlan2 up`
