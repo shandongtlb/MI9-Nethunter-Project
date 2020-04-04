@@ -1,7 +1,7 @@
 # MI9-Nethunter-Project
 <br> 警告：该内核仅在用于黑客技术的学习和交流，禁止非法使用，期间发生和导致的任何责任问题都与本人无关！ [For English](https://github.com/shandongtlb/MI9-Nethunter-Project)
 
-<br> 该内核基于高通官方CAF-SM8150源码合并小米内核树并进行修改，适用于MIUI_Q,基本上实现了Nethunter官网支持手机的全部功能并且已解决已知的所有问题
+<br> 该内核基于高通官方CAF-SM8150源码合并小米内核树并进行修改，适用于MIUI_Q,基本上实现了Nethunter官网支持手机的全部功能并且已解决所有已知问题
 <br> 开源源码地址（并没有打Nethunter补丁，可以自行用我提供的patch合并,当然你还需要自己配置defconfig） [kernel source](https://github.com/shandongtlb/msm-4.14)
 
 <br> Nethunter补丁，理论上支持所有4.14.x内核版本的手机 [Nethunter kernel patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch)
