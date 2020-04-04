@@ -63,9 +63,12 @@ If you want to use HID,you should run `setprop sys.usb.config win,hid` as root o
 <br>  Please see [here](https://github.com/kimocoder/qualcomm_android_monitor_mode) to see how to turn wlan0 monitor mode on.
 
 <br>  Due to the special nature of the newly added rtl8812au network card, it is not possible to directly use airmon-ng to directly start the monitoring mode, which can be run by the following command:
-<br>  `ip link wlan2 down` Xiaomi phone need set wlan2 instead of wlan1
+<br>  Xiaomi phone need set wlan2 instead of wlan1
+
+<br>  `ip link wlan2 down` 
 <br>  `iw dev wlan2 set type monitor`
 <br>  `ip link wlan2 up`
+
 
 <br>  I suggest using MIUI.eu_stable-11.0.5, otherwise there may be problems with fingerprint unlocking and sound. It's not my fault, it's just Xiaomi's problem! I have already submitted the [issue](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/issues/1213) , but I cannot get any reply from Xiaomi...
 
