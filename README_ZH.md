@@ -54,16 +54,21 @@
   
 ## 如何安装和使用
 <br>  第一步首先在已经去除data分区强制加密的前提下在twrp备份你的boot.img和dtbo.img，然后刷入面具，最后刷入内核包，重启
-<br>  第二步进入到你的系统，用mt管理器打开内核包，找到tools/ppp，将init.nethunter.rc中的所有内容全部复制到系统文件/init.usb.configfs.rc里面（打开init.usb.configfs.rc之后拉到最下面空一行粘贴就好）
+<br>  第二步进入到你的系统，用mt管理器打开内核包，找到tools/ppp，将init.nethunter.rc中的所有内容全部复制到系统文件/init.usb.configfs.rc里面（打开init.usb.configfs.rc之后拉到最下面空一行粘贴就好），然后把剩下的那俩bin文件全部复制到系统根目录`/`
 <br>  最后一步，重启系统并安装chroot
 <br>  如果你想开启HID，你需要到终端模拟器以root身份键入以下命令 `setprop sys.usb.config win,hid`
 
 <br>  如果你想开启手机内置网卡wlan0的监听功能, [请看这里](https://github.com/kimocoder/qualcomm_android_monitor_mode) 
 
+<br>  由于新增rtl8812au网卡的特殊性无法直接用airmon-ng直接开启监听模式，可以通过下列命令运行
+<br>  `ip link wlan1 down`
+<br>  `iw dev wlan1 set type monitor`
+<br>  `ip link wlan1 up`
+
 <br>  建议各位使用官改MIUI，并且使用最新稳定版11.0.5，如果刷了开发版或者MIUI_eu11.0.7的话会导致指纹不可用，，这不是我的问题好吗，完全是小米指纹源码树的锅。。。有尝试修过指纹，但开发版基本每升级一次，上一次修好的指纹就不能用了，懒得再去搞，，我早就提交过 [issue](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/issues/1213) 但一直没有回应，所以还是安心用11.0.5的稳定包吧，国内eu都可。。。
 
 ## 已知问题
-  请告诉我哦
+请告诉我哦
 
 ## 感谢名单 (排名不分先后)
 <br> Thanks [CAF-SM8150](https://source.codeaurora.org/quic/la/kernel/msm-4.14/) for kernel source
