@@ -1,29 +1,31 @@
 # MI9-Nethunter-Project
 <br> Warning: This kernel is intended for hacker technology learning and communication, not for illegal use, all behaviors and responsibilities have nothing to do with me!   [简体中文](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/README_ZH.md)
 
-<br> This kernel is modified based on Qualcomm-CAF-SM8150 kernel source and is suitable for MIUI_Q. The kernel version is 4.14.175. Basically, the nethunter official website supports all the functions of the mobile phone and has solved all known problems. You can download and use the kernel from release.
+<br> This kernel is modified based on CAF-android-linux-stable kernel source and is suitable for MIUI_Q. The kernel version is 4.14.176. Basically, the nethunter official website supports all the functions of the mobile phone and has solved all known problems. You can download and use the kernel from release.
 <br> Now, this is my [kernel source](https://github.com/shandongtlb/msm-4.14)
 
 <br> This patch supports all Linux devices based on the 4.14.X kernel version [Nethunter kernel patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch)
 <br> Click [here](https://github.com/shandongtlb/MI9-Nethunter-Project/releases) to download Mi9-nethunter-kernel-release
-<br> The last version: V8 20200404 4.14.175
+<br> The last version: V9 20200416 4.14.176
 ## Kernel function
 ### Nethunter function (You can use the patch I provided to implement WIFI inject and HID, and you also need to configure defconfig yourself [patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch))
 <br>  WIFI Injection IEEE80211 and support 2.4GHZ & 5GHZ
-<br>  Support otg rt3070l ar9170 rtl8187/8.....
+<br>  Support otg MTKMT7601U rt28xx/3070l ar9170 rtl8187/8.....
 <br>  New rtl88xxau driver support form https://github.com/aircrack-ng/rtl8812au
 <br>  HID attack and support DuckyHID
-<br>  DriveDroid
+<br>  DriveDroid support
 <br>  SYSVIPC (now you can run postgresql normally)
 <br>  USB RNDIS
 <br>  Bluetooth usb drivers
 <br>  USB RTL8150/2/3 based ethernet device support
+<br>  USB bluetooth device
 <br>  RTL-SDR, AirSpy, Hackrf
 <br>  USB serial (now it supports ch340 and pl2303)
 <br>  Wireless extension compatible (now you can use "iwconfig" and set monitor mode)
 <br>  Enable Qualcomm WiFi monitor mode, now you can set your network card "wlan0" to monitor mode(No injection support)
 ### Release kernel Characteristic
-<br>  Update to 4.14.175
+<br>  Update to 4.14.176
+<br>  Merge tag 'LA.UM.8.1.r1-14500-sm8150.0' for kernel tree, WLAN, Audio, data_rmnet
 <br>  Add BBRv2 and set default
 <br>  Add 830mhz gpu freq
 <br>  Add klapse5.0
@@ -44,7 +46,6 @@
 <br>  Add qcacld3 wlan driver
 <br>  Add andreno boost
 <br>  All of them has built in kernel instead of in modules
-<br>  set selinux Permissive
 <br>  Upgrade wireguard Network security tunnel
 <br>  Optimize f2fs
 <br>  Zram: use lz4 compression and set default
@@ -75,7 +76,8 @@ If you want to use HID,you should run `setprop sys.usb.config win,hid` as root o
 Please tell me
 
 ## Thanks (Randomly arranged)
-<br> Thanks [CAF-SM8150](https://source.codeaurora.org/quic/la/kernel/msm-4.14/) for kernel source
+<br> Thanks [CAF-SM8150](https://source.codeaurora.org/quic/la/kernel/msm-4.14/) for kernel tree
+<br> Thanks [Android-linux-stable](https://github.com/android-linux-stable/msm-4.14) for kernel source
 <br> Thanks [kimocoder](https://github.com/kimocoder) for rtl88xxau driver and any help 
 <br> Thanks [johanlike](https://github.com/johanlike) for Enable Qcom WiFi monitor mode and any help
 <br> Thanks [simonpunk](https://forum.xda-developers.com/oneplus-5/development/burgerhunter-t3638810) for HID patch
