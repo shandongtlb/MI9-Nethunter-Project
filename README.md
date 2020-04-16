@@ -24,7 +24,7 @@
 <br>  Enable Qualcomm WiFi monitor mode, now you can set your network card "wlan0" to monitor mode(No injection support)
 ### Release kernel Characteristic
 <br>  Update to 4.14.176
-<br>  Merge tag 'LA.UM.8.1.r1-14500-sm8150.0' for kernel tree, WLAN, Audio, data_rmnet
+<br>  Merge tag 'LA.UM.8.1.r1-14700-sm8150.0' for kernel tree, WLAN, Audio, data_rmnet
 <br>  Add BBRv2 and set default
 <br>  Add 830mhz gpu freq
 <br>  Add klapse5.0
