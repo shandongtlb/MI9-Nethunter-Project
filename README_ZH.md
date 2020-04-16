@@ -10,7 +10,7 @@
 ## 内核功能
 ### 内核Nethunter功能 (可以使用我提供的补丁来实现 WIFI inject和HID,当然你还需要自己配置defconfig [patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch))
 <br>  WiFi 网卡监听注入 支持2.4GHZ和5GHZ频段
-<br>  支持otg外接网卡 MTKMT7601U rt28xx/3070l ar9170 rtl8187/8 ZD1201等等
+<br>  支持otg外接网卡 MTKMT7601U rt28xx/3070l ar9170 rtl8187/8 ZD1201USB等等
 <br>  加入新的RTL88xxAU网卡驱动！具体使用方法请看：https://github.com/aircrack-ng/rtl8812au
 <br>  HID模拟键盘鼠标攻击，完美支持DuckyHID
 <br>  SYSVIPC支持 (现在你可以开启PostgreSQL数据库)
@@ -24,7 +24,7 @@
 <br>  支持高通内置网卡开启监听, 现在你可以使用手机自身的"wlan0"网卡来开启监听模式了(暂不支持注入)
 ### 内核自身功能
 <br>  Update to 4.14.176
-<br>  Merge tag 'LA.UM.8.1.r1-14500-sm8150.0' for kernel tree, WLAN, Audio, data_rmnet
+<br>  Merge tag 'LA.UM.8.1.r1-14700-sm8150.0' for kernel tree, WLAN, Audio, data_rmnet
 <br>  添加 BBRv2 and set default
 <br>  添加 830mhz gpu freq
 <br>  添加 klapse5.0
