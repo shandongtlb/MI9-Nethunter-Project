@@ -10,15 +10,14 @@
 ## Kernel function
 ### Nethunter function (You can use the patch I provided to implement WIFI inject and HID, and you also need to configure defconfig yourself [patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch))
 <br>  WIFI Injection IEEE80211 and support 2.4GHZ & 5GHZ
-<br>  Support otg MTKMT7601U rt28xx/3070l ar9170 rtl8187/8.....
+<br>  Support otg MTKMT7601U rt28xx/307x ar9170 rtl8187/8 ZD1201USB.....
 <br>  New rtl88xxau driver support form https://github.com/aircrack-ng/rtl8812au
 <br>  HID attack and support DuckyHID
 <br>  DriveDroid support
 <br>  SYSVIPC (now you can run postgresql normally)
 <br>  USB RNDIS
-<br>  Bluetooth usb drivers
 <br>  USB RTL8150/2/3 based ethernet device support
-<br>  USB bluetooth device
+<br>  USB/UART bluetooth device
 <br>  RTL-SDR, AirSpy, Hackrf
 <br>  USB serial (now it supports ch340 and pl2303)
 <br>  Wireless extension compatible (now you can use "iwconfig" and set monitor mode)
