@@ -6,7 +6,7 @@
 
 <br> Nethunter补丁，理论上支持所有4.14.x内核版本的手机 [Nethunter kernel patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch)
 <br> 小米9 Nethunter内核下载地址 [here](https://github.com/shandongtlb/MI9-Nethunter-Project/releases) 
-<br> The last version: V9 20200416 4.14.176
+<br> The last version: V10 20200420 4.14.176
 ## 内核功能
 ### 内核Nethunter功能 (可以使用我提供的补丁来实现 WIFI inject和HID,当然你还需要自己配置defconfig [patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch))
 <br>  WiFi 网卡监听注入 支持2.4GHZ和5GHZ频段
