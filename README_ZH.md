@@ -68,7 +68,7 @@
 <br>  `iw dev wlan2 set type monitor`
 <br>  `ip link wlan2 up`
 
-<br>  建议各位使用官改MIUI，并且使用最新稳定版11.0.5，如果刷了开发版或者MIUI_eu11.0.7的话会导致指纹不可用，，这不是我的问题好吗，完全是小米指纹源码树的锅。。。有尝试修过指纹，但开发版基本每升级一次，上一次修好的指纹就不能用了，懒得再去搞，，我早就提交过 [issue](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/issues/1213) 但一直没有回应，所以还是安心用11.0.5的稳定包吧，国内eu都可。。。
+<br>  建议各位使用官改MIUI，并且使用最新稳定版11.0.5，如果刷了开发版或者MIUI_eu11.0.7的话会导致指纹不可用，，这不是我的问题好吗，完全是小米指纹源码树的锅。。。我早就提交过 [issue](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/issues/1213) 但一直没有回应，所以还是安心用11.0.5的稳定包吧，国内eu都可。。。
 
 ## 已知问题
 请告诉我哦
