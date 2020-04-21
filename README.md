@@ -1,12 +1,12 @@
 # MI9-Nethunter-Project
 <br> Warning: This kernel is intended for hacker technology learning and communication, not for illegal use, all behaviors and responsibilities have nothing to do with me!   [简体中文](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/README_ZH.md)
 
-<br> This kernel is modified based on CAF-android-linux-stable kernel source and is suitable for MIUI_Q. The kernel version is 4.14.176. Basically, the nethunter official website supports all the functions of the mobile phone and has solved all known problems. You can download and use the kernel from release.
+<br> This kernel is modified based on CAF-android-linux-stable kernel source and is suitable for MIUI_Q. Basically, the nethunter official website supports all the functions of the mobile phone and has solved all known problems. You can download and use the kernel from release.
 <br> Now, this is my [kernel source](https://github.com/shandongtlb/msm-4.14)
 
 <br> This patch supports all Linux devices based on the 4.14.X kernel version [Nethunter kernel patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch)
 <br> Click [here](https://github.com/shandongtlb/MI9-Nethunter-Project/releases) to download Mi9-nethunter-kernel-release
-<br> The last version: V9 20200416 4.14.176
+<br> The last version: V10 20200420 4.14.176
 ## Kernel function
 ### Nethunter function (You can use the patch I provided to implement WIFI inject and HID, and you also need to configure defconfig yourself [patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch))
 <br>  WIFI Injection IEEE80211 and support 2.4GHZ & 5GHZ
