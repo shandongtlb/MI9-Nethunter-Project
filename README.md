@@ -86,7 +86,7 @@ Please tell me
 ## Thanks (Randomly arranged)
 <br> Thanks [CAF-SM8150](https://source.codeaurora.org/quic/la/kernel/msm-4.14/) for kernel tree
 <br> Thanks [Android-linux-stable](https://github.com/android-linux-stable/msm-4.14/tree/kernel.lnx.4.14.r4-rel) for kernel source
-<br> Thanks [Googlesource](https://android.googlesource.com/kernel/common/+/refs/heads/android-4.14-q)
+<br> Thanks [Googlesource](https://android.googlesource.com/kernel/common/+/refs/heads/android-4.14-q) kernel source
 <br> Thanks [kimocoder](https://github.com/kimocoder) for rtl88xxau driver and any help 
 <br> Thanks [johanlike](https://github.com/johanlike) for Enable Qcom WiFi monitor mode and any help
 <br> Thanks [simonpunk](https://forum.xda-developers.com/oneplus-5/development/burgerhunter-t3638810) for HID patch
