@@ -34,7 +34,7 @@
 <br>  Add dynamic fsync
 <br>  Set ddr 2133MHZ
 <br>  Add and upstream simple LMK
-<br>  Add CPU inout boost
+<br>  Add CPU input boost
 <br>  Dynamic stune boost
 <br>  Unlock battery charge capacity (may be)
 <br>  DTS Ultra:X kernel support
