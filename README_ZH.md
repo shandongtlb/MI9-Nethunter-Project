@@ -43,8 +43,6 @@
 <br>  跳过充电温控，默认关闭 开启：echo Y > /sys/module/smb5_lib/parameters/skip_thermal
 <br>  强制USB MTP模式900ma快充，默认开启
 <br>  设置zram默认2GB （可以在defconfig调节 CONFIG_ZRAM_SIZE_OVERRIDE 这个参数修改）
-
-
 <br>  添加 exfat
 <br>  添加 ntfs
 <br>  添加 devfreq_boost
