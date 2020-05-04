@@ -36,7 +36,7 @@
 <br>  Add and upstream simple LMK
 <br>  Add CPU input boost
 <br>  Dynamic stune boost
-<br>  Unlock battery charge capacity (may be)
+<br>  Unlock battery charge capacity
 <br>  DTS Ultra:X kernel support
 <br>  Enable MTP 900ma force fast charge (turn on: echo 1 > /sys/kernel/fast_charge/force_fast_charge)
 <br>  Set zram default 2GB (set CONFIG_ZRAM_SIZE_OVERRIDE option in defconfig)
