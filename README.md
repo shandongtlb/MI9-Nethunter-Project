@@ -44,7 +44,6 @@
 <br>  Skip thermal throttling when charging  (echo Y > /sys/module/smb5_lib/parameters/skip_thermal)
 <br>  Add ntfs
 <br>  Add devfreq_boost
-<br>  Add ext4
 <br>  Add Network File Systems
 <br>  Upstream PELT
 <br>  Qcom touch_boost
