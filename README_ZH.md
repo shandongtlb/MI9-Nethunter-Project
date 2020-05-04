@@ -39,7 +39,7 @@
 <br>  优化EAS能量模型
 <br>  使用PELT负载均衡
 <br>  DTS Ultra:X 内核驱动支持
-<br>  电池充电容量解锁（没试过，无效的话等本人换电池吧）
+<br>  电池充电容量解锁
 <br>  跳过充电温控，默认关闭 开启：echo Y > /sys/module/smb5_lib/parameters/skip_thermal
 <br>  强制USB MTP模式900ma快充，默认开启
 <br>  设置zram默认2GB （可以在defconfig调节 CONFIG_ZRAM_SIZE_OVERRIDE 这个参数修改）
