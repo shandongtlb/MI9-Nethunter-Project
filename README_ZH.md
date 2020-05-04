@@ -36,17 +36,16 @@
 <br>  合并上游 simple LMK
 <br>  添加 cpu input boost
 <br>  添加 Dynamic stune boost 
-<br>  优化EAS能量模型
-<br>  使用PELT负载均衡
+<br>  优化 EAS 能量模型
+<br>  使用 PELT 负载均衡
 <br>  DTS Ultra:X 内核驱动支持
 <br>  电池充电容量解锁
 <br>  跳过充电温控，默认关闭 开启：echo Y > /sys/module/smb5_lib/parameters/skip_thermal
-<br>  强制USB MTP模式900ma快充，默认开启
-<br>  设置zram默认2GB （可以在defconfig调节 CONFIG_ZRAM_SIZE_OVERRIDE 这个参数修改）
+<br>  强制 USB MTP 模式 900ma 快充，默认开启
+<br>  设置 zram 默认2GB （可以在defconfig调节 CONFIG_ZRAM_SIZE_OVERRIDE 这个参数修改）
 <br>  添加 exfat
 <br>  添加 ntfs
 <br>  添加 devfreq_boost
-<br>  添加 ext4
 <br>  添加 Network File Systems
 <br>  添加 vdso32
 <br>  添加一些HID驱动 (包括 Steam Controller, Nintendo switch Controller 和 XBox 游戏手柄)
@@ -54,7 +53,7 @@
 <br>  升级 qcacld3 wlan driver 到最新
 <br>  添加 andreno boost 并且默认关闭
 <br>  高通触摸升频
-<br>  实现0模块，将所有东西都编译进内核，增强通刷性
+<br>  实现 0 模块，将所有东西都编译进内核，增强通刷性
 <br>  升级 wireguard 到最新
 <br>  优化 f2fs
 <br>  Zram: 默认lz4压缩算法
