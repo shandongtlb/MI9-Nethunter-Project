@@ -6,7 +6,7 @@
 
 <br> This patch supports all Linux devices based on the 4.14.X kernel version [Nethunter kernel patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch)
 <br> Click [here](https://github.com/shandongtlb/MI9-Nethunter-Project/releases) to download Mi9-nethunter-kernel-release
-<br> The last version: V11 20200504 4.14.178
+<br> The last version: V12 20200512 4.14.180
 ## Kernel function
 ### Nethunter function (You can use the patch I provided to implement WIFI inject and HID, and you also need to configure defconfig yourself [patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch))
 <br>  WIFI Injection IEEE80211 and support 2.4GHZ & 5GHZ
@@ -23,9 +23,9 @@
 <br>  Wireless extension compatible (now you can use `iwconfig` and set monitor mode)
 <br>  Enable Qualcomm WiFi monitor mode, now you can set your network card "wlan0" to monitor mode(No injection support)
 ### Release kernel Characteristic
-<br>  Update to 4.14.178
+<br>  Update to 4.14.180
 <br>  Merge android-4.14-q from googlesource
-<br>  Merge tag 'LA.UM.8.1.r1-14700-sm8150.0' for kernel tree, WLAN, Audio, data_rmnet
+<br>  Merge tag 'LA.UM.8.1.r1-14900-sm8150.0' for kernel tree, WLAN, Audio, data_rmnet
 <br>  Add BBRv2 and set default
 <br>  Add 830mhz gpu freq
 <br>  Add klapse5.0
@@ -64,8 +64,8 @@
   
 ## How to install or use it
 <br>  First on the premise of removing the mandatory encryption of data partition, back up your existing boot.img and dtbo.img and flash magisk, then swipe the kernel package into twrp and restart it.
-<br>  Second enter your system, unzip the kernel package, and extract init.nethunter.rc, keyboard-descriptor.bin and mouse-descriptor.bin from tool/ppp/,then put the keyboard-descriptor.bin and mouse-descriptor.bin files in the / ;copy all contents in init.nethunter.rc to the last line of /init.usb.configfs.rc file.
-<br>  Finally Install kali chroot and reboot.
+<br>  Second enter your system, install kali chroot and reboot.
+
 If you want to use HID,you should run `setprop sys.usb.config win,hid` as root on the terminal.
 
 <br>  Please see [here](https://github.com/kimocoder/qualcomm_android_monitor_mode) to see how to turn wlan0 monitor mode on.
