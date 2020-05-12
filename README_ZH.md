@@ -6,7 +6,7 @@
 
 <br> Nethunter补丁，理论上支持所有4.14.x内核版本的手机 [Nethunter kernel patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch)
 <br> 小米9 Nethunter内核下载地址 [here](https://github.com/shandongtlb/MI9-Nethunter-Project/releases) 
-<br> The last version: V11 20200504 4.14.178
+<br> The last version: V12 20200512 4.14.180
 ## 内核功能
 ### 内核Nethunter功能 (可以使用我提供的补丁来实现 WIFI inject和HID,当然你还需要自己配置defconfig [patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch))
 <br>  WiFi 网卡监听注入 支持2.4GHZ和5GHZ频段
@@ -23,9 +23,9 @@
 <br>  无线扩展兼容性 (现在你可以通过使用`iwconfig`命令开启监听模式)
 <br>  支持高通内置网卡开启监听, 现在你可以使用手机自身的"wlan0"网卡来开启监听模式了(暂不支持注入)
 ### 内核自身功能
-<br>  Update to 4.14.178
-<br>  Merge tag 'LA.UM.8.1.r1-14700-sm8150.0' for kernel tree, WLAN, Audio, data_rmnet
-<br>  合并谷歌最新common android-4.14-q 4.14.178
+<br>  Update to 4.14.180
+<br>  Merge tag 'LA.UM.8.1.r1-14900-sm8150.0' for kernel tree, WLAN, Audio, data_rmnet
+<br>  合并谷歌最新common android-4.14-q 4.14.180
 <br>  添加 BBRv2 and set default
 <br>  添加 830mhz gpu freq
 <br>  添加 klapse5.0
@@ -65,8 +65,7 @@
   
 ## 如何安装和使用
 <br>  第一步首先在已经去除data分区强制加密的前提下在twrp备份你的boot.img和dtbo.img，然后刷入面具，最后刷入内核包，重启
-<br>  第二步进入到你的系统，用mt管理器打开内核包，找到tools/ppp，将init.nethunter.rc中的所有内容全部复制到系统文件/init.usb.configfs.rc里面（打开init.usb.configfs.rc之后拉到最下面空一行粘贴就好），然后把剩下的那俩bin文件全部复制到系统根目录`/`
-<br>  最后一步，重启系统并安装chroot
+<br>  第二步进入到你的系统，安装chroot并重启系统
 <br>  如果你想开启HID，你需要到终端模拟器以root身份键入以下命令 `setprop sys.usb.config win,hid`
 
 <br>  如果你想开启手机内置网卡wlan0的监听功能, [请看这里](https://github.com/kimocoder/qualcomm_android_monitor_mode) 
