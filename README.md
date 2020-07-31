@@ -1,17 +1,17 @@
 # MI9-Nethunter-Project
 <br> Warning: This kernel is intended for hacker technology learning and communication, not for illegal use, all behaviors and responsibilities have nothing to do with me!   [简体中文](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/README_ZH.md)
 
-<br> This kernel is modified based on CAF kernel source and is suitable for MIUI_Q. Basically, the nethunter official website supports all the functions of the mobile phone and has solved all known problems. You can download and use the kernel from release.
+<br> This kernel is modified based on CAF kernel source and is suitable for MIUI12. Basically, the nethunter official website supports all the functions of the mobile phone and has solved all known problems. You can download and use the kernel from release.
 <br> Now, this is my [kernel source](https://github.com/shandongtlb/msm-4.14)
 
 <br> This patch supports all Linux devices based on the 4.14.X kernel version [Nethunter kernel patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch)
 <br> Click [here](https://github.com/shandongtlb/MI9-Nethunter-Project/releases) to download Mi9-nethunter-kernel-release
-<br> The last version: V12 20200512 4.14.180
+<br> The last version: V13 20200731 4.14.190
 ## Kernel function
 ### Nethunter function (You can use the patch I provided to implement WIFI inject and HID, and you also need to configure defconfig yourself [patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch))
 <br>  WIFI Injection IEEE80211 and support 2.4GHZ & 5GHZ
 <br>  Support otg MTKMT7601U rt28xx/307x ar9170 rtl8187/8 ZD1201USB.....
-<br>  New rtl88xxau driver support form https://github.com/aircrack-ng/rtl8812au
+<br>  New rtl88xxau driver support form https://github.com/aircrack-ng/rtl8812au (default disable, you should build own)
 <br>  HID attack and support DuckyHID
 <br>  DriveDroid support
 <br>  SYSVIPC (now you can run postgresql normally)
@@ -23,11 +23,11 @@
 <br>  Wireless extension compatible (now you can use `iwconfig` and set monitor mode)
 <br>  Enable Qualcomm WiFi monitor mode, now you can set your network card "wlan0" to monitor mode(No injection support)
 ### Release kernel Characteristic
-<br>  Update to 4.14.180
+<br>  Update to 4.14.190
 <br>  Merge android-4.14-q from googlesource
-<br>  Merge tag 'LA.UM.8.1.r1-14900-sm8150.0' for kernel tree, WLAN, Audio, data_rmnet
+<br>  Merge tag 'LA.UM.8.1.r1-15400-sm8150.0' for kernel tree, WLAN, Audio, data_rmnet
 <br>  Add BBRv2 and set default
-<br>  Add 830mhz gpu freq
+<br>  Add 810mhz gpu freq
 <br>  Add klapse5.0
 <br>  Add Audio control
 <br>  Add zen iosched and zen is default
@@ -35,17 +35,15 @@
 <br>  Set ddr 2133MHZ
 <br>  Add and upstream simple LMK
 <br>  Add CPU input boost
-<br>  Dynamic stune boost
 <br>  Unlock battery charge capacity
-<br>  DTS Ultra:X kernel support
-<br>  Enable MTP 900ma force fast charge (turn on: echo 1 > /sys/kernel/fast_charge/force_fast_charge)
+<br>  Enable MTP 900ma force fast charge
 <br>  Set zram default 2GB (set CONFIG_ZRAM_SIZE_OVERRIDE option in defconfig)
 <br>  Add exfat
 <br>  Skip thermal throttling when charging  (echo Y > /sys/module/smb5_lib/parameters/skip_thermal)
 <br>  Add ntfs
 <br>  Add devfreq_boost
 <br>  Add Network File Systems
-<br>  Upstream PELT
+<br>  Upstream WALT
 <br>  Qcom touch_boost
 <br>  Add vdso32
 <br>  Add some HID driver (include Steam Controller, Nintendo switch Controller and XBox gamepad)
@@ -75,9 +73,6 @@ If you want to use HID,you should run `setprop sys.usb.config win,hid` as root o
 <br>  `ip link wlan2 down` 
 <br>  `iw dev wlan2 set type monitor`
 <br>  `ip link wlan2 up`
-
-
-<br>  I suggest using MIUI.eu_stable-11.0.5, otherwise there may be problems with fingerprint unlocking and sound. It's not my fault, it's just Xiaomi's problem! I have already submitted the [issue](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/issues/1213) , but I cannot get any reply from Xiaomi...
 
 ## Known Issues
 Please tell me
