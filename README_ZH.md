@@ -25,7 +25,7 @@
 ### 内核自身功能
 <br>  Update to 4.14.190
 <br>  Merge tag 'LA.UM.8.1.r1-15400-sm8150.0' for kernel tree, WLAN, Audio, data_rmnet
-<br>  合并谷歌最新common android-4.14-q 4.14.180
+<br>  合并谷歌最新common android-4.14-q
 <br>  添加 BBRv2 and set default
 <br>  添加 810mhz gpu freq
 <br>  添加 klapse5.0
