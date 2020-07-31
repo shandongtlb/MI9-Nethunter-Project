@@ -6,12 +6,12 @@
 
 <br> Nethunter补丁，理论上支持所有4.14.x内核版本的手机 [Nethunter kernel patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch)
 <br> 小米9 Nethunter内核下载地址 [here](https://github.com/shandongtlb/MI9-Nethunter-Project/releases) 
-<br> The last version: V12 20200512 4.14.180
+<br> The last version: V13 20200731 4.14.190
 ## 内核功能
 ### 内核Nethunter功能 (可以使用我提供的补丁来实现 WIFI inject和HID,当然你还需要自己配置defconfig [patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch))
 <br>  WiFi 网卡监听注入 支持2.4GHZ和5GHZ频段
 <br>  支持otg外接网卡 MTKMT7601U rt28xx/3070l ar9170 rtl8187/8 ZD1201USB等等
-<br>  加入新的RTL88xxAU网卡驱动！具体使用方法请看：https://github.com/aircrack-ng/rtl8812au
+<br>  加入新的RTL88xxAU网卡驱动！具体使用方法请看：https://github.com/aircrack-ng/rtl8812au (我默认未编译，想用的自行编译)
 <br>  HID模拟键盘鼠标攻击，完美支持DuckyHID
 <br>  SYSVIPC支持 (现在你可以开启PostgreSQL数据库)
 <br>  DriveDroid支持
@@ -23,11 +23,11 @@
 <br>  无线扩展兼容性 (现在你可以通过使用`iwconfig`命令开启监听模式)
 <br>  支持高通内置网卡开启监听, 现在你可以使用手机自身的"wlan0"网卡来开启监听模式了(暂不支持注入)
 ### 内核自身功能
-<br>  Update to 4.14.180
-<br>  Merge tag 'LA.UM.8.1.r1-14900-sm8150.0' for kernel tree, WLAN, Audio, data_rmnet
+<br>  Update to 4.14.190
+<br>  Merge tag 'LA.UM.8.1.r1-15400-sm8150.0' for kernel tree, WLAN, Audio, data_rmnet
 <br>  合并谷歌最新common android-4.14-q 4.14.180
 <br>  添加 BBRv2 and set default
-<br>  添加 830mhz gpu freq
+<br>  添加 810mhz gpu freq
 <br>  添加 klapse5.0
 <br>  添加 Audio control
 <br>  添加 zen i/o调度器并设为默认
@@ -35,10 +35,8 @@
 <br>  设置 ddr 2133MHZ
 <br>  合并上游 simple LMK
 <br>  添加 cpu input boost
-<br>  添加 Dynamic stune boost 
 <br>  优化 EAS 能量模型
-<br>  使用 PELT 负载均衡
-<br>  DTS Ultra:X 内核驱动支持
+<br>  使用 WALT
 <br>  电池充电容量解锁
 <br>  跳过充电温控，默认关闭 开启：echo Y > /sys/module/smb5_lib/parameters/skip_thermal
 <br>  强制 USB MTP 模式 900ma 快充，默认开启
@@ -61,7 +59,7 @@
 <br>  use power efficient workingqueues
 <br>  LLD link and ThinLTO support
 <br>  使用基于高通的CAF编译，最新的驱动，更流畅更省电
-<br>  .........
+<br>  还有很多很多不一一列举了哈.........
   
 ## 如何安装和使用
 <br>  第一步首先在已经去除data分区强制加密的前提下在twrp备份你的boot.img和dtbo.img，然后刷入面具，最后刷入内核包，重启
@@ -76,7 +74,7 @@
 <br>  `iw dev wlan2 set type monitor`
 <br>  `ip link wlan2 up`
 
-<br>  建议各位使用官改MIUI，并且使用最新稳定版11.0.5，如果刷了开发版或者MIUI_eu11.0.7的话会导致指纹不可用，，这不是我的问题好吗，完全是小米指纹源码树的锅。。。我早就提交过 [issue](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/issues/1213) 但一直没有回应，所以还是安心用11.0.5的稳定包吧，国内eu都可。。。
+<br>  建议各位使用官改MIUI12，指纹问题已经解决，在此向流念、len以及sk大佬表以感谢和致敬！！！
 
 ## 已知问题
 请告诉我哦
