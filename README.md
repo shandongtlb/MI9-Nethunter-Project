@@ -39,7 +39,7 @@
 <br>  Enable MTP 900ma force fast charge
 <br>  Set zram default 2GB (set CONFIG_ZRAM_SIZE_OVERRIDE option in defconfig)
 <br>  Add exfat
-<br>  Skip thermal throttling when charging  (echo Y > /sys/module/smb5_lib/parameters/skip_thermal)
+<br>  Skip thermal throttling when charging  (echo 1 > /sys/module/smb5_lib/parameters/skip_thermal)
 <br>  Add ntfs
 <br>  Add devfreq_boost
 <br>  Add Network File Systems
