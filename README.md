@@ -41,6 +41,7 @@
 <br>  Add exfat
 <br>  Skip thermal throttling when charging  (echo 1 > /sys/module/smb5_lib/parameters/skip_thermal)
 <br>  Add ntfs
+<br>  Add pixel4 cpusets_assist
 <br>  Add devfreq_boost
 <br>  Add Network File Systems
 <br>  Upstream WALT
