@@ -38,7 +38,8 @@
 <br>  优化 EAS 能量模型
 <br>  使用 WALT
 <br>  电池充电容量解锁
-<br>  跳过充电温控，默认关闭 开启：echo Y > /sys/module/smb5_lib/parameters/skip_thermal
+<br>  使用pixel4的cpusets_assist，相同任务效率更高(在此感谢流念帖子给的思路)
+<br>  跳过充电温控，默认关闭 开启：echo 1 > /sys/module/smb5_lib/parameters/skip_thermal
 <br>  强制 USB MTP 模式 900ma 快充，默认开启
 <br>  设置 zram 默认2GB （可以在defconfig调节 CONFIG_ZRAM_SIZE_OVERRIDE 这个参数修改）
 <br>  添加 exfat
