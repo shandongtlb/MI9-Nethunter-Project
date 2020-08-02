@@ -6,7 +6,7 @@
 
 <br> This patch supports all Linux devices based on the 4.14.X kernel version [Nethunter kernel patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch)
 <br> Click [here](https://github.com/shandongtlb/MI9-Nethunter-Project/releases) to download Mi9-nethunter-kernel-release
-<br> The last version: V13 20200731 4.14.190
+<br> The last version: V14 20200802 4.14.191
 ## Kernel function
 ### Nethunter function (You can use the patch I provided to implement WIFI inject and HID, and you also need to configure defconfig yourself [patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch))
 <br>  WIFI Injection IEEE80211 and support 2.4GHZ & 5GHZ
@@ -23,7 +23,7 @@
 <br>  Wireless extension compatible (now you can use `iwconfig` and set monitor mode)
 <br>  Enable Qualcomm WiFi monitor mode, now you can set your network card "wlan0" to monitor mode(No injection support)
 ### Release kernel Characteristic
-<br>  Update to 4.14.190
+<br>  Update to 4.14.191
 <br>  Merge android-4.14-q from googlesource
 <br>  Merge tag 'LA.UM.8.1.r1-15400-sm8150.0' for kernel tree, WLAN, Audio, data_rmnet
 <br>  Add BBRv2 and set default
