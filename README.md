@@ -6,7 +6,7 @@
 
 <br> This patch supports all Linux devices based on the 4.14.X kernel version [Nethunter kernel patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch)
 <br> Click [here](https://github.com/shandongtlb/MI9-Nethunter-Project/releases) to download Mi9-nethunter-kernel-release
-<br> The last version: V15 20200807 4.14.193
+<br> The last version: V16 20200808 4.14.193
 ## Kernel function
 ### Nethunter function (You can use the patch I provided to implement WIFI inject and HID, and you also need to configure defconfig yourself [patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch))
 <br>  WIFI Injection IEEE80211 and support 2.4GHZ & 5GHZ
