@@ -6,7 +6,7 @@
 
 <br> Nethunter补丁，理论上支持所有4.14.x内核版本的手机 [Nethunter kernel patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch)
 <br> 小米9 Nethunter内核下载地址 [here](https://github.com/shandongtlb/MI9-Nethunter-Project/releases) 
-<br> The last version: V16 20200806 4.14.193
+<br> The last version: V18 20200823 4.14.194
 ## 内核功能
 ### 内核Nethunter功能 (可以使用我提供的补丁来实现 WIFI inject和HID,当然你还需要自己配置defconfig [patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch))
 <br>  WiFi 网卡监听注入 支持2.4GHZ和5GHZ频段
@@ -23,7 +23,7 @@
 <br>  无线扩展兼容性 (现在你可以通过使用`iwconfig`命令开启监听模式)
 <br>  支持高通内置网卡开启监听, 现在你可以使用手机自身的"wlan0"网卡来开启监听模式了(暂不支持注入)
 ### 内核自身功能
-<br>  Update to 4.14.193
+<br>  Update to 4.14.194
 <br>  Merge tag 'LA.UM.8.1.r1-15600-sm8150.0' for kernel tree, WLAN, Audio, data_rmnet
 <br>  合并谷歌最新common android-4.14-q
 <br>  添加 BBRv2 and set default
@@ -59,6 +59,7 @@
 <br>  开启 target TTL 接口
 <br>  use power efficient workingqueues
 <br>  LLD link and ThinLTO support
+<br>  支持屏幕刷新率 66 69 72 75hz
 <br>  使用基于高通的CAF编译，最新的驱动，更流畅更省电
 <br>  还有很多很多不一一列举了哈.........
   
