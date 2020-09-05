@@ -23,9 +23,9 @@
 <br>  Wireless extension compatible (now you can use `iwconfig` and set monitor mode)
 <br>  Enable Qualcomm WiFi monitor mode, now you can set your network card "wlan0" to monitor mode(No injection support)
 ### Release kernel Characteristic
-<br>  Update to 4.14.195
+<br>  Update to 4.14.194
 <br>  Merge android-4.14-q from googlesource
-<br>  Merge tag 'LA.UM.8.1.r1-15800-sm8150.0' for kernel tree, WLAN, data_rmnet
+<br>  Merge tag 'LA.UM.8.1.r1-15600-sm8150.0' for kernel tree, WLAN, data_rmnet and audio
 <br>  Add BBRv2 and set default
 <br>  Add 810mhz gpu freq
 <br>  Add klapse5.0
