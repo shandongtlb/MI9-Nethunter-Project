@@ -23,8 +23,8 @@
 <br>  无线扩展兼容性 (现在你可以通过使用`iwconfig`命令开启监听模式)
 <br>  支持高通内置网卡开启监听, 现在你可以使用手机自身的"wlan0"网卡来开启监听模式了(暂不支持注入)
 ### 内核自身功能
-<br>  Update to 4.14.195
-<br>  Merge tag 'LA.UM.8.1.r1-15800-sm8150.0' for kernel tree, WLAN, Audio, data_rmnet
+<br>  Update to 4.14.194
+<br>  Merge tag 'LA.UM.8.1.r1-15600-sm8150.0' for kernel tree, WLAN, Audio, data_rmnet and audio
 <br>  合并谷歌最新common android-4.14-q
 <br>  添加 BBRv2 and set default
 <br>  添加 810mhz gpu freq
