@@ -28,7 +28,7 @@
 <br>  Merge tag 'LA.UM.8.1.r1-15600-sm8150.0' for kernel tree, WLAN, Audio, data_rmnet and audio
 <br>  合并谷歌最新common android-4.14-q
 <br>  添加 BBRv2 and set default
-<br>  添加 810mhz gpu freq
+<br>  添加 750mhz gpu freq
 <br>  添加 klapse5.0
 <br>  添加 Audio control
 <br>  添加 zen i/o调度器并设为默认
@@ -44,15 +44,12 @@
 <br>  强制 USB MTP 模式 900ma 快充，默认开启
 <br>  设置 zram 默认2GB （可以在defconfig调节 CONFIG_ZRAM_SIZE_OVERRIDE 这个参数修改）
 <br>  添加 exfat
-<br>  添加 ntfs
 <br>  添加 devfreq_boost
-<br>  添加 Network File Systems
+<br>  开启 Network File Systems
 <br>  添加 vdso32
 <br>  添加一些HID驱动 (包括 Steam Controller, Nintendo switch Controller 和 XBox 游戏手柄)
 <br>  添加 Shadow Call Stack(SCS) 并且默认关闭
-<br>  升级 qcacld3 wlan driver 到最新
-<br>  添加 andreno boost 并且默认关闭
-<br>  高通触摸升频
+<br>  高通触摸升频 默认关闭
 <br>  实现 0 模块，将所有东西都编译进内核，增强通刷性
 <br>  升级 wireguard 到最新
 <br>  优化 f2fs
@@ -61,7 +58,6 @@
 <br>  use power efficient workingqueues
 <br>  LLD link and ThinLTO support
 <br>  支持屏幕刷新率 66 69 72 75hz
-<br>  使用基于高通的CAF编译，最新的驱动，更流畅更省电
 <br>  还有很多很多不一一列举了哈.........
   
 ## 如何安装和使用
@@ -72,12 +68,12 @@
 <br>  如果你想开启手机内置网卡wlan0的监听功能, [请看这里](https://github.com/kimocoder/qualcomm_android_monitor_mode) 
 
 <br>  由于新增rtl8812au网卡的特殊性无法直接用airmon-ng直接开启监听模式，可以通过下列命令运行:
-<br>  小米手机的话要操作的应该使wlan2而不是wlan1
+<br>  小米手机的话要操作的应该是wlan2而不是wlan1
 <br>  `ip link wlan2 down`
 <br>  `iw dev wlan2 set type monitor`
 <br>  `ip link wlan2 up`
 
-<br>  建议各位使用官改MIUI12，指纹问题已经解决，在此向流念、len以及sk大佬表以感谢和致敬！！！
+<br>  建议各位使用官改MIUI12，指纹问题已经解决，在此向流念、laulan56以及sk大佬表以感谢和致敬！！！
 
 ## 已知问题
 请告诉我哦
