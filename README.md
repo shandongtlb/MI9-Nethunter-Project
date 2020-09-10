@@ -28,7 +28,7 @@
 <br>  Merge android-4.14-q from googlesource
 <br>  Merge tag 'LA.UM.8.1.r1-15600-sm8150.0' for kernel tree, WLAN, data_rmnet and audio
 <br>  Add BBRv2 and set default
-<br>  Add 810mhz gpu freq
+<br>  Add 750mhz gpu freq
 <br>  Add klapse5.0
 <br>  Add Audio control
 <br>  Add zen iosched and zen is default
@@ -41,17 +41,14 @@
 <br>  Set zram default 2GB (set CONFIG_ZRAM_SIZE_OVERRIDE option in defconfig)
 <br>  Add exfat
 <br>  Skip thermal throttling when charging  (echo 1 > /sys/module/smb5_lib/parameters/skip_thermal)
-<br>  Add ntfs
 <br>  Add pixel4 cpusets_assist
 <br>  Add devfreq_boost
-<br>  Add Network File Systems
+<br>  Enable Network File Systems
 <br>  Upstream WALT
 <br>  Qcom touch_boost
 <br>  Add vdso32
 <br>  Add some HID driver (include Steam Controller, Nintendo switch Controller and XBox gamepad)
 <br>  Add Shadow Call Stack and disabled
-<br>  Add qcacld3 wlan driver
-<br>  Add andreno boost
 <br>  All of them has built in kernel instead of in modules
 <br>  Upgrade wireguard Network security tunnel
 <br>  Optimize f2fs
