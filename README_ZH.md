@@ -20,6 +20,7 @@
 <br>  RTL-SDR, AirSpy, Hackrf 支持
 <br>  USB RTL8150/2/3 based 有线网卡支持
 <br>  USB serial (目前支持CH341和pl2303接口)
+<br>  RFcomm tty协议/串口支持
 <br>  无线扩展兼容性 (现在你可以通过使用`iwconfig`命令开启监听模式)
 <br>  支持高通内置网卡开启监听, 现在你可以使用手机自身的"wlan0"网卡来开启监听模式了(暂不支持注入)
 ### 内核自身功能
