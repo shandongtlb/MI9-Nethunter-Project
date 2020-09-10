@@ -17,6 +17,7 @@
 <br>  SYSVIPC (now you can run postgresql normally)
 <br>  USB RNDIS
 <br>  USB RTL8150/2/3 based ethernet device support
+<br>  RFcomm tty support
 <br>  USB/UART bluetooth device
 <br>  RTL-SDR, AirSpy, Hackrf
 <br>  USB serial (now it supports ch340 and pl2303)
