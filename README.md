@@ -44,7 +44,7 @@
 <br>  Add pixel4 cpusets_assist
 <br>  Add devfreq_boost
 <br>  Enable Network File Systems
-<br>  Upstream WALT
+<br>  Use PELT
 <br>  Qcom touch_boost
 <br>  Add vdso32
 <br>  Add some HID driver (include Steam Controller, Nintendo switch Controller and XBox gamepad)
