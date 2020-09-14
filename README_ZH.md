@@ -6,7 +6,7 @@
 
 <br> Nethunter补丁，理论上支持所有4.14.x内核版本的手机 [Nethunter kernel patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch)
 <br> 小米9 Nethunter内核下载地址 [here](https://github.com/shandongtlb/MI9-Nethunter-Project/releases) 
-<br> The last version: V22 20200910 4.14.197 LTS
+<br> The last version: V23 20200914 4.14.198 LTS
 ## 内核功能
 ### 内核Nethunter功能 (可以使用我提供的补丁来实现 WIFI inject和HID,当然你还需要自己配置defconfig [patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch))
 <br>  WiFi 网卡监听注入 支持2.4GHZ和5GHZ频段
@@ -24,8 +24,8 @@
 <br>  无线扩展兼容性 (现在你可以通过使用`iwconfig`命令开启监听模式)
 <br>  支持高通内置网卡开启监听, 现在你可以使用手机自身的"wlan0"网卡来开启监听模式了(暂不支持注入)
 ### 内核自身功能
-<br>  Update to 4.14.197
-<br>  Merge tag 'LA.UM.8.1.r1-15600-sm8150.0' for kernel tree, WLAN, Audio, data_rmnet and audio
+<br>  Update to 4.14.198 LTS
+<br>  Merge tag 'LA.UM.8.1.r1-15900-sm8150.0' for kernel tree, WLAN, data_rmnet
 <br>  合并谷歌最新common android-4.14-q
 <br>  添加 BBRv2 and set default
 <br>  添加 750mhz gpu freq
@@ -37,7 +37,7 @@
 <br>  合并上游 simple LMK
 <br>  添加 cpu input boost
 <br>  优化 EAS 能量模型
-<br>  使用 WALT
+<br>  使用 PELT
 <br>  电池充电容量解锁
 <br>  使用pixel4的cpusets_assist，相同任务效率更高(在此感谢流念帖子给的思路)
 <br>  跳过充电温控，默认关闭 开启：echo 1 > /sys/module/smb5_lib/parameters/skip_thermal
@@ -73,7 +73,7 @@
 <br>  `iw dev wlan2 set type monitor`
 <br>  `ip link wlan2 up`
 
-<br>  建议各位使用官改MIUI12，指纹问题已经解决，在此向流念、laulan56以及sk大佬表以感谢和致敬！！！
+<br>  建议各位使用官改MIUI12最新稳定版，稳定版指纹问题已经解决，开发版可能会有充电问题和指纹问题，不过还是要在此向流念、laulan56以及sk大佬表以感谢！！！
 
 ## 已知问题
 请告诉我哦
