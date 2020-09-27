@@ -88,5 +88,5 @@
 <br> Thanks [Evirakernel](https://github.com/evirakernel) for some help
 <br> Thanks [acai66](https://github.com/acai66) for any help
 <br> Thanks [h1jacker](https://github.com/h1jacker) for any help
-<br> Thanks [Bcap03](https://github.com/Bcap03) for any help
+<br> Thanks [TsingPeng](https://github.com/TsingPeng03) for any help
 <br> Thanks [osm0sis](https://github.com/osm0sis/AnyKernel3) for busybox and anykernel3
