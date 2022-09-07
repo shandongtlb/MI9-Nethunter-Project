@@ -2,7 +2,7 @@
 <br> Warning: This kernel is intended for hacker technology learning and communication, not for illegal use, all behaviors and responsibilities have nothing to do with me!   [简体中文](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/README_ZH.md)
 
 <br> This kernel is modified based on CAF kernel source and is suitable for MIUI12. Basically, the nethunter official website supports all the functions of the mobile phone and has solved all known problems. You can download and use the kernel from release.
-<br> Now, this is my [kernel source](https://github.com/shandongtlb/msm-4.14)
+<br> Now, this is my [kernel source](https://github.com/shandongtlb/kernel_xiaomi_sm8150_MI9)
 
 <br> This patch supports all Linux devices based on the 4.14.X kernel version [Nethunter kernel patch](https://github.com/shandongtlb/MI9-Nethunter-Project/blob/master/MI9-nethunter-4.14.patch)
 <br> Click [here](https://github.com/shandongtlb/MI9-Nethunter-Project/releases) to download Mi9-nethunter-kernel-release
